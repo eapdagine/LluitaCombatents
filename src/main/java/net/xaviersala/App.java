@@ -23,7 +23,9 @@ public class App {
         lluitadors.add("Trinxador");
         lluitadors.add("Enmascarat");
 
-        // TODO: Llistar els combatents
+        for (int i = 1; i < lluitadors.size(); i++) {
+            System.out.println(lluitadors.get(i));
+        }
 
         System.out.println("---------------");
     }
